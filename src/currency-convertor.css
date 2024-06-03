@@ -1,0 +1,19 @@
+button {
+    background-color: #ff9900; /* orange */
+    color: #fff; /* white */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer; /* add a hand cursor on hover */
+    transition: background-color 0.2s; /* add a transition effect */
+  }
+  
+  
+
+  button:active {
+    background-color: #ffa07a; /* even darker orange on click */
+    transform: translateY(2px); /* create a slight press effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a subtle shadow */
+  }
+
+  
